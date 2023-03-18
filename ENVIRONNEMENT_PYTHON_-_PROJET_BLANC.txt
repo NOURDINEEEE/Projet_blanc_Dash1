@@ -1,0 +1,19 @@
+ENVIRONNEMENT PYTHON - PROJET BLANC 
+
+
+conda create --name projet_blanc python==3.9
+
+conda install -c anaconda numpy
+conda install -c anaconda pandas
+conda install -c anaconda seaborn
+pip install dash
+conda install -c anaconda scipy
+conda install -c anaconda jupyter
+conda install spyder
+pip install ipython
+pip install mysql-connector-python
+pip install jupyter-dash
+conda install matplotlib
+conda install -c plotly plotly=5.13.1
+
+
