@@ -12,7 +12,9 @@ layout = html.Div(children=[
         id='analytics-input')
     ]),
 	html.Br(),
-    html.Div(id='analytics-output'),
+    html.Div(
+        dcc.Graph(figure=fig_1),
+        id='analytics-output'),
 ])
 
 
