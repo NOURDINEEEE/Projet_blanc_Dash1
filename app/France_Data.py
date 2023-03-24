@@ -17,7 +17,7 @@ from dash import dcc
 from dash import html
 from jupyter_dash import JupyterDash
 
-template='plotly_dark'
+template='plotly_white'
 
 
 
