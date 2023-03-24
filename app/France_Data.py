@@ -192,7 +192,7 @@ fig_5 = px.line(data_quarterly, x='Quarter' , y=['STI_normalized', 'GDP_normaliz
 fig_5.update_layout(
     title='Evolution du PIB et de l\'indice d\'intensité de confinement',
     xaxis_title="Date",
-    yaxis_title="PIB"
+    yaxis_title="PIB/STI"
 )
 
 series_names = ["Stringency Index", "PIB"]
@@ -332,6 +332,18 @@ fig_9 = px.scatter(data_quarterly, x='TC', y=['MILK'], title='', template=templa
 
 # In[ ]:
 
+Commentaire_France_1 = "Le PIB a tendance de diminuer en fonction de l'indice Stringency, ce qui reflète le fait que le \
+    PIB a diminué chaque fois la France a passé d'une période de confinement."
+Commentaire_France_2 = ""
+Commentaire_France_3 = ""
+Commentaire_France_4 = ""
 
+Commentaire_EU_1 = ""
+Commentaire_EU_2 = ""
+Commentaire_EU_3 = ""
+Commentaire_EU_4 = ""
 
-
+Commentaire_Monde_1 = ""
+Commentaire_Monde_2 = ""
+Commentaire_Monde_3 = ""
+Commentaire_Monde_4 = ""
