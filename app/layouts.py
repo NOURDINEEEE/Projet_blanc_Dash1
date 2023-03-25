@@ -17,8 +17,8 @@ layout1 = html.Div([
         ),
     dcc.Graph(id='page-1-tab-content'),
     html.P(id='page-1-tab-value'),
-    html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
-            style={'display': 'flex', 'flex-direction': 'column'})
+    #html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
+    #        style={'display': 'flex', 'flex-direction': 'column'})
 ])
 
 """ layout1 = html.Div([
@@ -47,8 +47,8 @@ layout2 = html.Div([
         ),
     dcc.Graph(id='page-2-tab-content'),
     html.P(id='page-2-tab-value'),
-    html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
-            style={'display': 'flex', 'flex-direction': 'column'})
+    #html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
+    #        style={'display': 'flex', 'flex-direction': 'column'})
 ])
 
 layout3 = html.Div([
@@ -65,6 +65,6 @@ layout3 = html.Div([
         ),
     dcc.Graph(id='page-3-tab-content'),
     html.P(id='page-3-tab-value'),
-    html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
-            style={'display': 'flex', 'flex-direction': 'column'})
+    #html.Div(children=[dcc.Link('Analyse France', href='./France'), dcc.Link('Analyse EU', href='./EU'), dcc.Link('Analyse Monde', href='./Monde')],
+    #        style={'display': 'flex', 'flex-direction': 'column'})
 ])

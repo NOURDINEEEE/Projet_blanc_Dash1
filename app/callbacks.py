@@ -11,13 +11,13 @@ input_list = ['PIB en fonction de l\'intensité de confinement', 'Evolution du P
 )
 def display_value(tabs):
     if tabs == 'Graphe 1' :
-        return (fig_2, "Analyse Graphe 1")
+        return (fig_2, "Analyse Graphe 1 : " + Commentaire_France_1)
     elif tabs == 'Graphe 2' :
-        return (fig_5, "Analyse Graphe 2")
+        return (fig_5, "Analyse Graphe 2 : " + Commentaire_France_2)
     elif tabs == 'Graphe 3' :
-        return (fig_6, "Analyse Graphe 3")
+        return (fig_6, "Analyse Graphe 3 : " + Commentaire_France_3)
     elif tabs == 'Graphe 4' :
-        return (fig_7, "Analyse Graphe 4")
+        return (fig_7, "Analyse Graphe 4 : " + Commentaire_France_4)
     #return f'You have selected {value}'
 
 @callback(
@@ -27,13 +27,13 @@ def display_value(tabs):
 )
 def display_value(tabs):
     if tabs == 'Graphe 1' :
-        return (fig_2, "Analyse Graphe 1")
+        return (fig_2, "Analyse Graphe 1 : " + Commentaire_EU_1)
     elif tabs == 'Graphe 2' :
-        return (fig_5, "Analyse Graphe 2")
+        return (fig_5, "Analyse Graphe 2 : " + Commentaire_EU_2)
     elif tabs == 'Graphe 3' :
-        return (fig_6, "Analyse Graphe 3")
+        return (fig_6, "Analyse Graphe 3 : " + Commentaire_EU_3)
     elif tabs == 'Graphe 4' :
-        return (fig_7, "Analyse Graphe 4")
+        return (fig_7, "Analyse Graphe 4 : " + Commentaire_EU_4)
 
 @callback(
     Output("page-3-tab-content", "figure"),
@@ -42,13 +42,13 @@ def display_value(tabs):
 )
 def display_value(tabs):
     if tabs == 'Graphe 1' :
-        return (fig_2, "Analyse Graphe 1")
+        return (fig_2, "Analyse Graphe 1 : " + Commentaire_Monde_1)
     elif tabs == 'Graphe 2' :
-        return (fig_5, "Analyse Graphe 2")
+        return (fig_5, "Analyse Graphe 2 : " + Commentaire_Monde_2)
     elif tabs == 'Graphe 3' :
-        return (fig_6, "Analyse Graphe 3")
+        return (fig_6, "Analyse Graphe 3 : " + Commentaire_Monde_3)
     elif tabs == 'Graphe 4' :
-        return (fig_7, "Analyse Graphe 4")
+        return (fig_7, "Analyse Graphe 4 : " + Commentaire_Monde_4)
 
 @callback(
     Output('page-1-display-value', 'children'),
