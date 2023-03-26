@@ -577,7 +577,7 @@ Figure_STI51.update_layout(
     yaxis_title="Taux de chomage Latin America"
 )
 
-Figure_STI15 = px.box(Tableau_croise_LAC_STI) # STI au Mexique
+Figure_STI15 = px.box(Tableau_croise_LAC_STI.T) # STI au Mexique
 Figure_STI15.update_layout(
     title='STI au Mexique',
     yaxis_title="STI",
@@ -606,28 +606,28 @@ Figure_STI4.update_layout(
     yaxis_title="Taux de croissance"
 )
 
-Figure_STI11 = px.box(Tableau_croise_AS_STI) # STI Indonesia
+Figure_STI11 = px.box(Tableau_croise_AS_STI.T) # STI Indonesia
 Figure_STI11.update_layout(
     title='STI Indonesia',
     yaxis_title="STI",
     xaxis_title="Indonesia"
 )
 
-Figure_STI13 = px.box(Tableau_croise_ASS_STI) # STI Zambia
+Figure_STI13 = px.box(Tableau_croise_ASS_STI.T) # STI Zambia
 Figure_STI13.update_layout(
     title='STI Zambia',
     yaxis_title="STI",
     xaxis_title="Zambia"
 )
 
-Figure_STI14 = px.box(Tableau_croise_AEP_STI) # STI China
+Figure_STI14 = px.box(Tableau_croise_AEP_STI.T) # STI China
 Figure_STI14.update_layout(
     title='STI China',
     yaxis_title="STI",
     xaxis_title="China"
 )
 
-Figure_STI12 = px.box(Tableau_croise_MO_AN_STI) # STI Tunisia 
+Figure_STI12 = px.box(Tableau_croise_MO_AN_STI.T) # STI Tunisia 
 Figure_STI12.update_layout(
     title='STI Tunisia',
     yaxis_title="STI",

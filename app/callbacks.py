@@ -74,7 +74,7 @@ def display_value(tabs):
     elif tabs == 'EU' :
         return ("Conclusion de l'analyse au niveau de l'Union Européenne : ", "")
     elif tabs == 'Monde' :
-        return ("Conclusion de l'analyse au niveau global : ", "L'afrique sub sahara (représenté par la Zambi) a un niveau de restriction (confinement) très faible par rapport au monde, ensuite l'Amérique latine (Mexique) a un niveau de restriction moyen, enfin le reste du monde a un niveau de restriction élevé (Afrique du Nord, Amérique du Nord, Asie du Sud) et voir très élevé (Chine). En conséquence l'Amérique latine et l'Asie ont eu la chute de niveau d'activité économique (chômage et croissance économique) la plus élevée dans le monde à contrario de l'Afrique du Nord qui a eu un plus faible impacte de la crise sanitaire (2020). l'Afrique en général* qui a eu un plus faible impacte de la crise sanitaire (2020)*.")
+        return ("Conclusion de l'analyse au niveau global : ", "L'afrique sub sahara (représenté par la Zambi) a un niveau de restriction (confinement) très faible par rapport au monde, ensuite l'Amérique latine (Mexique) a un niveau de restriction moyen, enfin le reste du monde a un niveau de restriction élevé (Afrique du Nord, Amérique du Nord, Asie du Sud) et voir très élevé (Chine). En conséquence l'Amérique latine et l'Asie ont eu la chute de niveau d'activité économique (chômage et croissance économique) la plus élevée dans le monde à contrario de l'Afrique en général qui a eu un plus faible impacte de la crise sanitaire (2020).")
 
 @callback(
     Output('page-1-display-value', 'children'),
