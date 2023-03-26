@@ -29,7 +29,7 @@ def display_value(tabs):
 )
 def display_value(tabs):
     if tabs == 'Graphe 1' :
-        return ((fig_GDP_STI_normalized, fig_GDP_new_cases_normalized), "Analyse Graphe 1 : " + commentaire_europe_gdp)
+        return (fig_GDP_STI_normalized, "Analyse Graphe 1 : " + commentaire_europe_gdp)
     elif tabs == 'Graphe 2' :
         return (fig_5, "Analyse Graphe 2 : " + Commentaire_EU_2)
     elif tabs == 'Graphe 3' :
