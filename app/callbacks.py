@@ -2,6 +2,7 @@ from dash import Input, Output, callback
 from France_Data import *
 from Projet_blanc_donnees_mondiales import Figure_STI51, Figure_STI15, Figure_STI5, Figure_STI2, Figure_STI4, Figure_STI11, Figure_STI13, Figure_STI14, Figure_STI12
 from layouts import *
+from Europe import *
 
 input_list = ['PIB en fonction de l\'intensité de confinement', 'Evolution du PIB et de l\'indice d\'intensité de confinement', 'Evolution de nombre de vols passagers et de l\'intensité de confinement', 'Intensité de confinement et PIB en fonction du nombre total des cas']
 
@@ -12,7 +13,7 @@ input_list = ['PIB en fonction de l\'intensité de confinement', 'Evolution du P
 )
 def display_value(tabs):
     if tabs == 'Graphe 1' :
-        return (fig_2, "Analyse Graphe 1 : " + Commentaire_France_1)
+        return (fig_GDP_STI_normalized, "Analyse Graphe 1 : " + commentaire_europe_gdp)
     elif tabs == 'Graphe 2' :
         return (fig_5, "Analyse Graphe 2 : " + Commentaire_France_2)
     elif tabs == 'Graphe 3' :
