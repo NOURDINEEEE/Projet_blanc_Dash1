@@ -585,21 +585,21 @@ Figure_STI15.update_layout(
 )
 
 #canada ??
-Figure_STI5 = px.bar(Tableau_croise_AN_IDE.T[True]) # Taux de chômage en Amérique du Nord
+Figure_STI5 = px.bar(Tableau_croise_AN_Tch.T) # Taux de chômage en Amérique du Nord
 Figure_STI5.update_layout(
     title='Taux de chômage en Amérique du Nord',
     xaxis_title="Année",
-    yaxis_title="IDE North America"
+    yaxis_title="Taux de chômage"
 )
 
-Figure_STI2 = px.bar(Tableau_croise_ASS_TC.T[True]) # Taux de croissance Sub Sahara
+Figure_STI2 = px.bar(Tableau_croise_ASS_TC.T) # Taux de croissance Sub Sahara
 Figure_STI2.update_layout(
     title='Taux de croissance Sub Sahara',
     xaxis_title="Année",
     yaxis_title="Taux de croissance"
 )
 
-Figure_STI4 = px.bar(Tableau_croise_AS_TC.T[True]) # Taux de croissance sud de l'Asie
+Figure_STI4 = px.bar(Tableau_croise_AS_TC.T) # Taux de croissance sud de l'Asie
 Figure_STI4.update_layout(
     title='Taux de croissance sud de l\'Asie',
     xaxis_title="Année",
