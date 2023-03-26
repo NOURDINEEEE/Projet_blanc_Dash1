@@ -334,8 +334,8 @@ fig_9 = px.scatter(data_quarterly, x='TC', y=['MILK'], title='', template=templa
 
 Commentaire_France_1 = "Le PIB a tendance de diminuer en fonction de l'indice Stringency, ce qui reflète le fait que le \
     PIB a diminué chaque fois la France a passé d'une période de confinement."
-Commentaire_France_2 = ""
-Commentaire_France_3 = ""
+Commentaire_France_2 = "Dans ce graphe, on voit d'une manière plus claire que le PIB diminue lors du premier confinement. Or, ce dernier stabilise après la première période de COVID."
+Commentaire_France_3 = "Un des secteurs les plus affectés durant le COVID était le secteur de transport aérien. Ce graphe montre que le nombre de vols passagers a diminué lors de la période de confinement, et a augmenté à des valeurs importantes avant de stabiliser. Ce qui s'explique par le fait que les gens avaient tendance de partir en vacances après le confinement au début de 2022."
 Commentaire_France_4 = ""
 
 Commentaire_EU_1 = ""
@@ -343,7 +343,13 @@ Commentaire_EU_2 = ""
 Commentaire_EU_3 = ""
 Commentaire_EU_4 = ""
 
-Commentaire_Monde_1 = ""
-Commentaire_Monde_2 = ""
-Commentaire_Monde_3 = ""
-Commentaire_Monde_4 = ""
+Commentaire_Monde_1 = "Le taux de chômage en Amérique Latine a augmenté durant la crise sanitaire (10%) et dépasse la moyenne mondiale (8%) "
+Commentaire_Monde_2 = " Le taux de chômage en Amérique du Nord a augmenté durant la crise sanitaire, a rejoint la moyenne des autres pays (8%)"
+Commentaire_Monde_3 = "Le taux de croissance Sub Sahara devient très faible durant la crise sanitaire (-2%), mais reste plus élevé par rapport à la chute des autres pays (-4%)"
+Commentaire_Monde_4 = "Le taux de croissance sud de l'Asie devient très faible durant la crise sanitaire (-5%) par rapport à la chute des autres pays (-4%)"
+Commentaire_Monde_5 = "Le STI au Mexique est de même niveau que les autres pays (45 sur 100)"
+Commentaire_Monde_6 = " Le STI Indonesia est plus élevé (55 sur 100) par rapport aux autres pays (43 sur 100)"
+Commentaire_Monde_7 = "STI Zambia est plus faible (30 sur 100) par rapport aux autres pays (43 sur 100)"
+Commentaire_Monde_8 = "Le STI China est plus élevé (71 sur 100) par rapport aux autres pays (43 sur 100)"
+Commentaire_Monde_9 = " STI Tunisia est plus élevé (50 sur 100) par rapport aux autres pays (43 sur 100)"
+Commentaire_Monde_10 = "L'afrique sub sahara (représenté par la Zambi) a un niveau de restriction (confinement) très faible par rapport au monde, ensuite l'Amérique latine (Mexique) a un niveau de restriction moyen, enfin le reste du monde a un niveau de restriction élevé (Afrique du Nord, Amérique du Nord, Asie du Sud) et voir très élevé (Chine). En conséquence l'Amérique latine et l'Asie ont eu la chute de niveau d'activité économique (chômage et croissance économique) la plus élevée dans le monde à contrario de l'Afrique du Nord qui a eu un plus faible impacte de la crise sanitaire (2020). l'Afrique en général* qui a eu un plus faible impacte de la crise sanitaire (2020)*."

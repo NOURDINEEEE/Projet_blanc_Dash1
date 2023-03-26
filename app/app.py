@@ -20,6 +20,7 @@ sidebar = html.Div(
                 dbc.NavLink("France", href="./France", active="exact"),
                 dbc.NavLink("EU", href="./EU", active="exact"),
                 dbc.NavLink("Monde", href="./Monde", active="exact"),
+                dbc.NavLink("Conclusion", href="./Conclusion", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -46,6 +47,8 @@ def display_page(pathname):
          return layout2
     elif pathname == '/Monde':
          return layout3
+    elif pathname == '/Conclusion':
+         return layout4
     else:
         return layout1
 

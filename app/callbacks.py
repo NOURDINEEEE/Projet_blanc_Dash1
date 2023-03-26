@@ -33,8 +33,8 @@ def display_value(tabs):
         return (fig_5, "Analyse Graphe 2 : " + Commentaire_EU_2)
     elif tabs == 'Graphe 3' :
         return (fig_6, "Analyse Graphe 3 : " + Commentaire_EU_3)
-    elif tabs == 'Graphe 4' :
-        return (fig_7, "Analyse Graphe 4 : " + Commentaire_EU_4)
+#    elif tabs == 'Graphe 4' :
+#        return (fig_7, "Analyse Graphe 4 : " + Commentaire_EU_4)
 
 @callback(
     Output("page-3-tab-content", "figure"),
@@ -51,17 +51,30 @@ def display_value(tabs):
     elif tabs == 'Graphe 4' :
         return (Figure_STI4, "Analyse Graphe 4 : " + Commentaire_Monde_4)
     elif tabs == 'Graphe 5' :
-        return (Figure_STI15, "Analyse Graphe 5 : " + Commentaire_Monde_4)
+        return (Figure_STI15, "Analyse Graphe 5 : " + Commentaire_Monde_5)
     elif tabs == 'Graphe 6' :
-        return (Figure_STI11, "Analyse Graphe 6 : " + Commentaire_Monde_4)
+        return (Figure_STI11, "Analyse Graphe 6 : " + Commentaire_Monde_6)
     elif tabs == 'Graphe 7' :
-        return (Figure_STI13, "Analyse Graphe 7 : " + Commentaire_Monde_4)
+        return (Figure_STI13, "Analyse Graphe 7 : " + Commentaire_Monde_7)
     elif tabs == 'Graphe 8' :
-        return (Figure_STI14, "Analyse Graphe 8 : " + Commentaire_Monde_4)
+        return (Figure_STI14, "Analyse Graphe 8 : " + Commentaire_Monde_8)
     elif tabs == 'Graphe 9' :
-        return (Figure_STI12, "Analyse Graphe 9 : " + Commentaire_Monde_4)
-    #elif tabs == 'Graphe 10' :
-    #    return (Figure_STI14, "Analyse Graphe 4 : " + Commentaire_Monde_4)
+        return (Figure_STI12, "Analyse Graphe 9 : " + Commentaire_Monde_9)
+#    elif tabs == 'Conclusion' :
+#        return (Null, "Conclusion : " + Commentaire_Monde_10)
+
+@callback(
+    Output("page-4-tab-content", "children"),
+    Output('page-4-tab-value', "children"),
+    Input("page-4-tabs", "active_tab")
+)
+def display_value(tabs):
+    if tabs == 'France' :
+        return ("Conclusion de l'analyse au niveau de la France : ", "L'économie de la France a été affectée briefement par l'épidémie. Pourtant, cet effet n'était pas permanent, vu que le PIB, ainsi que les indicateurs économiques des différents secteurs, stabilisaient après la première période de COVID.")
+    elif tabs == 'EU' :
+        return ("Conclusion de l'analyse au niveau de l'Union Européenne : ", "")
+    elif tabs == 'Monde' :
+        return ("Conclusion de l'analyse au niveau global : ", "L'afrique sub sahara (représenté par la Zambi) a un niveau de restriction (confinement) très faible par rapport au monde, ensuite l'Amérique latine (Mexique) a un niveau de restriction moyen, enfin le reste du monde a un niveau de restriction élevé (Afrique du Nord, Amérique du Nord, Asie du Sud) et voir très élevé (Chine). En conséquence l'Amérique latine et l'Asie ont eu la chute de niveau d'activité économique (chômage et croissance économique) la plus élevée dans le monde à contrario de l'Afrique du Nord qui a eu un plus faible impacte de la crise sanitaire (2020). l'Afrique en général* qui a eu un plus faible impacte de la crise sanitaire (2020)*.")
 
 @callback(
     Output('page-1-display-value', 'children'),
