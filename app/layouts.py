@@ -41,6 +41,8 @@ layout2 = html.Div([
                 dbc.Tab(label="Graphe 2", tab_id="Graphe 2"),
                 dbc.Tab(label="Graphe 3", tab_id="Graphe 3"),
                 dbc.Tab(label="Graphe 4", tab_id="Graphe 4"),
+                dbc.Tab(label="Graphe 5", tab_id="Graphe 5"),
+                dbc.Tab(label="Graphe 6", tab_id="Graphe 6"),
             ],
             id="page-2-tabs",
             active_tab="Graphe 1",

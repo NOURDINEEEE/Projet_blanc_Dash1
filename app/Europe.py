@@ -1383,11 +1383,10 @@ fig_var_expenditure_travels_new_cases_normalized.update_layout(title='Variations
 # fig_GDP_STI_normalized
 # fig_GDP_new_cases_normalized
 
-commentaire_europe_gdp = """D'après ces graphiques, il semble que les variations observées du PIB soient inversement proportionnelles à l'indice STI, indice mesurant l'impact de la fermeture des écoles, bureaux et commerces, l'interdiction des rassemblements, mais aussi les campagnes d'information ou encore les restrictions dans les déplacements.
-On peut supposer que les restrictions survenues lors de l'épidémie ont bien impacté le PIB. Quand l'indice augmente (donc plus les restrictions sont fortes), le PIB diminue, et inversement. 
+commentaire_europe_gdp_STI = """D'après ces graphiques, il semble que les variations observées du PIB soient inversement proportionnelles à l'indice STI, indice mesurant l'impact de la fermeture des écoles, bureaux et commerces, l'interdiction des rassemblements, mais aussi les campagnes d'information ou encore les restrictions dans les déplacements.
+On peut supposer que les restrictions survenues lors de l'épidémie ont bien impacté le PIB. Quand l'indice augmente (donc plus les restrictions sont fortes), le PIB diminue, et inversement. """
 
-On observe le même phénomène en étudiant les variations du nombre de nouveaux cas par jour. Quand le nombre de cas augmente, le PIB diminue. 
-"""
+commentaire_europe_gdp_NC = """On observe le même phénomène que pour l'indice STI en étudiant les variations du nombre de nouveaux cas par jour. Quand le nombre de cas augmente, le PIB diminue. """
 
 #-----------------------------------------------------------------------------------
 
@@ -1410,7 +1409,7 @@ Une des raisons qu'on pourrait avancer pour expliquer ce phénomène est peut-et
 # fig_Revenus_STI_normalized
 # fig_Revenus_new_cases_normalized
 
-commentaire_europe_revenus = """Enfin, en observant les variations dans les revenus des ménages et leurs consommations on remarque le même que pour le PIB, plus lépidémie est forte, plus leurs revenus diminuent. 
+commentaire_europe_revenus = """En observant les variations dans les revenus des ménages et leurs consommations on remarque le même que pour le PIB, plus lépidémie est forte, plus leurs revenus diminuent. 
 """
 
 #-----------------------------------------------------------------------------------
