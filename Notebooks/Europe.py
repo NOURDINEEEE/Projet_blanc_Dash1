@@ -795,8 +795,8 @@ gdp_y = ['GDP', 'var_reproduction_rate_moy_pond', 'var_STI_moy_pond', 'var_new_c
 
 #%%             Correlations 
  
-print ('    Correlations des variables etudiees avec le PIB : ')
-print (corr_sorted_GDP[1:])
+# print ('    Correlations des variables etudiees avec le PIB : ')
+# print (corr_sorted_GDP[1:])
 
 #%%             Graphiques des donnees brutes
 
@@ -815,7 +815,7 @@ fig_GDP_reprod_rate.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_GDP_reprod_rate.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID',
                                   xaxis_title="Trimestre")
-fig_GDP_reprod_rate.show()
+# fig_GDP_reprod_rate.show()
 
 #---------------
 
@@ -832,7 +832,7 @@ fig_GDP_STI.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_GDP_STI.update_layout(title='Variations du PIB et du Stringency Index',
                                   xaxis_title="Trimestre")
-fig_GDP_STI.show()
+# fig_GDP_STI.show()
 
 #---------------
 
@@ -849,7 +849,7 @@ fig_GDP_new_cases.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_GDP_new_cases.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour',
                                   xaxis_title="Trimestre")
-fig_GDP_new_cases.show()
+# fig_GDP_new_cases.show()
 
 #%%             Graphiques des donnees standardisees
 
@@ -868,7 +868,7 @@ fig_GDP_reprod_rate_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quart
                                          line=dict(width=2, dash='dot')))
 fig_GDP_reprod_rate_normalized.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID (Standardise)',
                                   xaxis_title="Trimestre")
-fig_GDP_reprod_rate_normalized.show()
+# fig_GDP_reprod_rate_normalized.show()
 
 #---------------
 
@@ -885,7 +885,7 @@ fig_GDP_STI_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_GDP_STI_normalized.update_layout(title='Variations du PIB et du Stringency Index (Standardise)',
                                   xaxis_title="Trimestre")
-fig_GDP_STI_normalized.show()
+# fig_GDP_STI_normalized.show()
 
 #---------------
 
@@ -902,7 +902,7 @@ fig_GDP_new_cases_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quarter
                                          line=dict(width=2, dash='dot')))
 fig_GDP_new_cases_normalized.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour (Standardise)',
                                   xaxis_title="Trimestre")
-fig_GDP_new_cases_normalized.show()
+# fig_GDP_new_cases_normalized.show()
 
 #%%         Effets de la COVID sur le Chomage
 
@@ -913,8 +913,8 @@ var_chomage_y = ['var_chomage', 'var_reproduction_rate_moy_pond', 'var_STI_moy_p
 
 #%%             Correlations 
  
-print ('    Correlations des variables etudiees avec le PIB : ')
-print (corr_sorted_var_chomage[1:])
+# print ('    Correlations des variables etudiees avec le PIB : ')
+# print (corr_sorted_var_chomage[1:])
 
 #%%             Graphiques des donnees brutes
 
@@ -933,7 +933,7 @@ fig_var_chomage_reprod_rate.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_reprod_rate.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID',
                                   xaxis_title="Trimestre")
-fig_var_chomage_reprod_rate.show()
+# fig_var_chomage_reprod_rate.show()
 
 #---------------
 
@@ -950,7 +950,7 @@ fig_var_chomage_STI.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_STI.update_layout(title='Variations du PIB et du Stringency Index',
                                   xaxis_title="Trimestre")
-fig_var_chomage_STI.show()
+# fig_var_chomage_STI.show()
 
 #---------------
 
@@ -967,7 +967,7 @@ fig_var_chomage_new_cases.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_new_cases.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour',
                                   xaxis_title="Trimestre")
-fig_var_chomage_new_cases.show()
+# fig_var_chomage_new_cases.show()
 
 #%%             Graphiques des donnees standardisees
 
@@ -986,7 +986,7 @@ fig_var_chomage_reprod_rate_normalized.add_trace(go.Scatter(x=data_eur_normalize
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_reprod_rate_normalized.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_chomage_reprod_rate_normalized.show()
+# fig_var_chomage_reprod_rate_normalized.show()
 
 #---------------
 
@@ -1003,7 +1003,7 @@ fig_var_chomage_STI_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quart
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_STI_normalized.update_layout(title='Variations du PIB et du Stringency Index (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_chomage_STI_normalized.show()
+# fig_var_chomage_STI_normalized.show()
 
 #---------------
 
@@ -1020,7 +1020,7 @@ fig_var_chomage_new_cases_normalized.add_trace(go.Scatter(x=data_eur_normalized[
                                          line=dict(width=2, dash='dot')))
 fig_var_chomage_new_cases_normalized.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_chomage_new_cases_normalized.show()
+# fig_var_chomage_new_cases_normalized.show()
 
 #%%         Effets de la COVID sur le HDI
 
@@ -1031,8 +1031,8 @@ var_HDI_y = ['var_HDI', 'var_reproduction_rate_moy_pond', 'var_STI_moy_pond', 'v
 
 #%%             Correlations 
  
-print ('    Correlations des variables etudiees avec le PIB : ')
-print (corr_sorted_var_HDI[1:])
+# print ('    Correlations des variables etudiees avec le PIB : ')
+# print (corr_sorted_var_HDI[1:])
 
 #%%             Graphiques des donnees brutes
 
@@ -1051,7 +1051,7 @@ fig_var_HDI_reprod_rate.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_reprod_rate.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID',
                                   xaxis_title="Trimestre")
-fig_var_HDI_reprod_rate.show()
+# fig_var_HDI_reprod_rate.show()
 
 #---------------
 
@@ -1068,7 +1068,7 @@ fig_var_HDI_STI.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_STI.update_layout(title='Variations du PIB et du Stringency Index',
                                   xaxis_title="Trimestre")
-fig_var_HDI_STI.show()
+# fig_var_HDI_STI.show()
 
 #---------------
 
@@ -1085,7 +1085,7 @@ fig_var_HDI_new_cases.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_new_cases.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour',
                                   xaxis_title="Trimestre")
-fig_var_HDI_new_cases.show()
+# fig_var_HDI_new_cases.show()
 
 #%%             Graphiques des donnees standardisees
 
@@ -1104,7 +1104,7 @@ fig_var_HDI_reprod_rate_normalized.add_trace(go.Scatter(x=data_eur_normalized['Q
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_reprod_rate_normalized.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_HDI_reprod_rate_normalized.show()
+# fig_var_HDI_reprod_rate_normalized.show()
 
 #---------------
 
@@ -1121,7 +1121,7 @@ fig_var_HDI_STI_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quarter']
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_STI_normalized.update_layout(title='Variations du PIB et du Stringency Index (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_HDI_STI_normalized.show()
+# fig_var_HDI_STI_normalized.show()
 
 #---------------
 
@@ -1138,7 +1138,7 @@ fig_var_HDI_new_cases_normalized.add_trace(go.Scatter(x=data_eur_normalized['Qua
                                          line=dict(width=2, dash='dot')))
 fig_var_HDI_new_cases_normalized.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_HDI_new_cases_normalized.show()
+# fig_var_HDI_new_cases_normalized.show()
 
 #%%         Effets de la COVID sur les revenus et la consommation
 
@@ -1149,8 +1149,8 @@ Revenus_y = ['Revenus', 'var_reproduction_rate_moy_pond', 'var_STI_moy_pond', 'v
 
 #%%             Correlations 
  
-print ('    Correlations des variables etudiees avec le PIB : ')
-print (corr_sorted_Revenus[1:])
+# print ('    Correlations des variables etudiees avec le PIB : ')
+# print (corr_sorted_Revenus[1:])
 
 #%%             Graphiques des donnees brutes
 
@@ -1169,7 +1169,7 @@ fig_Revenus_reprod_rate.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_reprod_rate.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID',
                                   xaxis_title="Trimestre")
-fig_Revenus_reprod_rate.show()
+# fig_Revenus_reprod_rate.show()
 
 #---------------
 
@@ -1186,7 +1186,7 @@ fig_Revenus_STI.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_STI.update_layout(title='Variations du PIB et du Stringency Index',
                                   xaxis_title="Trimestre")
-fig_Revenus_STI.show()
+# fig_Revenus_STI.show()
 
 #---------------
 
@@ -1203,7 +1203,7 @@ fig_Revenus_new_cases.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_new_cases.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour',
                                   xaxis_title="Trimestre")
-fig_Revenus_new_cases.show()
+# fig_Revenus_new_cases.show()
 
 #%%             Graphiques des donnees standardisees
 
@@ -1222,7 +1222,7 @@ fig_Revenus_reprod_rate_normalized.add_trace(go.Scatter(x=data_eur_normalized['Q
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_reprod_rate_normalized.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID (Standardise)',
                                   xaxis_title="Trimestre")
-fig_Revenus_reprod_rate_normalized.show()
+# fig_Revenus_reprod_rate_normalized.show()
 
 #---------------
 
@@ -1239,7 +1239,7 @@ fig_Revenus_STI_normalized.add_trace(go.Scatter(x=data_eur_normalized['Quarter']
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_STI_normalized.update_layout(title='Variations du PIB et du Stringency Index (Standardise)',
                                   xaxis_title="Trimestre")
-fig_Revenus_STI_normalized.show()
+# fig_Revenus_STI_normalized.show()
 
 #---------------
 
@@ -1256,7 +1256,7 @@ fig_Revenus_new_cases_normalized.add_trace(go.Scatter(x=data_eur_normalized['Qua
                                          line=dict(width=2, dash='dot')))
 fig_Revenus_new_cases_normalized.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour (Standardise)',
                                   xaxis_title="Trimestre")
-fig_Revenus_new_cases_normalized.show()
+# fig_Revenus_new_cases_normalized.show()
 
 #%%         Effets de la COVID sur les depenses relatives aux voyages
 
@@ -1267,8 +1267,8 @@ var_expenditure_travels_y = ['var_expenditure_travels', 'var_reproduction_rate_m
 
 #%%             Correlations 
  
-print ('    Correlations des variables etudiees avec le PIB : ')
-print (corr_sorted_var_expenditure_travels[1:])
+# print ('    Correlations des variables etudiees avec le PIB : ')
+# print (corr_sorted_var_expenditure_travels[1:])
 
 #%%             Graphiques des donnees brutes
 
@@ -1287,7 +1287,7 @@ fig_var_expenditure_travels_reprod_rate.add_trace(go.Scatter(x=data_eur['Quarter
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_reprod_rate.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_reprod_rate.show()
+# fig_var_expenditure_travels_reprod_rate.show()
 
 #---------------
 
@@ -1304,7 +1304,7 @@ fig_var_expenditure_travels_STI.add_trace(go.Scatter(x=data_eur['Quarter'],
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_STI.update_layout(title='Variations du PIB et du Stringency Index',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_STI.show()
+# fig_var_expenditure_travels_STI.show()
 
 #---------------
 
@@ -1321,7 +1321,7 @@ fig_var_expenditure_travels_new_cases.add_trace(go.Scatter(x=data_eur['Quarter']
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_new_cases.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_new_cases.show()
+# fig_var_expenditure_travels_new_cases.show()
 
 #%%             Graphiques des donnees standardisees
 
@@ -1340,7 +1340,7 @@ fig_var_expenditure_travels_reprod_rate_normalized.add_trace(go.Scatter(x=data_e
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_reprod_rate_normalized.update_layout(title='Variations du PIB et des variations du taux de reproduction de la COVID (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_reprod_rate_normalized.show()
+# fig_var_expenditure_travels_reprod_rate_normalized.show()
 
 #---------------
 
@@ -1357,7 +1357,7 @@ fig_var_expenditure_travels_STI_normalized.add_trace(go.Scatter(x=data_eur_norma
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_STI_normalized.update_layout(title='Variations du PIB et du Stringency Index (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_STI_normalized.show()
+# fig_var_expenditure_travels_STI_normalized.show()
 
 #---------------
 
@@ -1374,7 +1374,7 @@ fig_var_expenditure_travels_new_cases_normalized.add_trace(go.Scatter(x=data_eur
                                          line=dict(width=2, dash='dot')))
 fig_var_expenditure_travels_new_cases_normalized.update_layout(title='Variations du PIB et des variations du Nombre de nouveaux cas par jour (Standardise)',
                                   xaxis_title="Trimestre")
-fig_var_expenditure_travels_new_cases_normalized.show()
+# fig_var_expenditure_travels_new_cases_normalized.show()
 
 #%%
 
