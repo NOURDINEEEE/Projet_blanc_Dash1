@@ -31,9 +31,9 @@ def display_value(tabs):
     if tabs == 'Graphe 1' :
         return (fig_GDP_STI_normalized, "Analyse Graphe 1 : " + commentaire_europe_gdp)
     elif tabs == 'Graphe 2' :
-        return (fig_5, "Analyse Graphe 2 : " + Commentaire_EU_2)
+        return (fig_var_chomage_STI_normalized, "Analyse Graphe 2 : " + commentaire_europe_chomage)
     elif tabs == 'Graphe 3' :
-        return (fig_6, "Analyse Graphe 3 : " + Commentaire_EU_3)
+        return (fig_Revenus_STI_normalized, "Analyse Graphe 3 : " + commentaire_europe_revenus)
 #    elif tabs == 'Graphe 4' :
 #        return (fig_7, "Analyse Graphe 4 : " + Commentaire_EU_4)
 
@@ -73,7 +73,7 @@ def display_value(tabs):
     if tabs == 'France' :
         return ("Conclusion de l'analyse au niveau de la France : ", "L'économie de la France a été affectée briefement par l'épidémie. Pourtant, cet effet n'était pas permanent, vu que le PIB, ainsi que les indicateurs économiques des différents secteurs, stabilisaient après la première période de COVID.")
     elif tabs == 'EU' :
-        return ("Conclusion de l'analyse au niveau de l'Union Européenne : ", "")
+        return ("Conclusion de l'analyse au niveau de l'Union Européenne : "+commentaire_europe_conclusion)
     elif tabs == 'Monde' :
         return ("Conclusion de l'analyse au niveau global : ", "L'afrique sub sahara (représenté par la Zambi) a un niveau de restriction (confinement) très faible par rapport au monde, ensuite l'Amérique latine (Mexique) a un niveau de restriction moyen, enfin le reste du monde a un niveau de restriction élevé (Afrique du Nord, Amérique du Nord, Asie du Sud) et voir très élevé (Chine). En conséquence l'Amérique latine et l'Asie ont eu la chute de niveau d'activité économique (chômage et croissance économique) la plus élevée dans le monde à contrario de l'Afrique en général qui a eu un plus faible impacte de la crise sanitaire (2020).")
 
