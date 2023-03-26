@@ -33,13 +33,13 @@ def display_value(tabs):
     elif tabs == 'Graphe 2' :
         return (fig_GDP_new_cases_normalized, "Analyse Graphe 2 : " + commentaire_europe_gdp_NC)
     elif tabs == 'Graphe 3' :
-        return (fig_Revenus_STI_normalized, "Analyse Graphe 3 : " + commentaire_europe_revenus)
+        return (fig_Revenus_STI_normalized, "Analyse Graphe 3 et 4 : " + commentaire_europe_revenus)
     elif tabs == 'Graphe 4' :
-        return (fig_Revenus_new_cases_normalized, "Analyse Graphe 1 : " + commentaire_europe_revenus)
+        return (fig_Revenus_new_cases_normalized, "Analyse Graphe 3 et 4 : " + commentaire_europe_revenus)
     elif tabs == 'Graphe 5' :
-        return (fig_var_chomage_STI_normalized, "Analyse Graphe 2 : " + commentaire_europe_chomage)
+        return (fig_var_chomage_STI_normalized, "Analyse Graphe 5 et 6 : " + commentaire_europe_chomage)
     elif tabs == 'Graphe 6' :
-        return (fig_var_chomage_new_cases_normalized, "Analyse Graphe 3 : " + commentaire_europe_chomage)
+        return (fig_var_chomage_new_cases_normalized, "Analyse Graphe 5 et 6 : " + commentaire_europe_chomage)
 
 @callback(
     Output("page-3-tab-content", "figure"),

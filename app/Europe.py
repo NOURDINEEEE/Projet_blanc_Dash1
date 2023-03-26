@@ -1399,8 +1399,7 @@ commentaire_europe_chomage = """Concernant le chomage, il semble que plus l'épi
 
 Pourtant, on pourrait s'attendre à ce que les mesures de sécurité contre l'épidémie et les différents confinements aient mis a mal certaines entreprises.
 
-Une des raisons qu'on pourrait avancer pour expliquer ce phénomène est peut-etre la généralisation du télé-travail qui permet a plusieurs entreprises d'élargir leurs recherches pour de nouveaux employés.
-"""
+Une des raisons qu'on pourrait avancer pour expliquer ce phénomène est peut-etre la généralisation du télé-travail qui permet a plusieurs entreprises d'élargir leurs recherches pour de nouveaux employés."""
 
 #-----------------------------------------------------------------------------------
 
@@ -1409,8 +1408,7 @@ Une des raisons qu'on pourrait avancer pour expliquer ce phénomène est peut-et
 # fig_Revenus_STI_normalized
 # fig_Revenus_new_cases_normalized
 
-commentaire_europe_revenus = """En observant les variations dans les revenus des ménages et leurs consommations on remarque le même que pour le PIB, plus lépidémie est forte, plus leurs revenus diminuent. 
-"""
+commentaire_europe_revenus = """En observant les variations dans les revenus des ménages et leurs consommations on remarque le même phénomène que pour le PIB, plus l'épidémie est forte, plus leurs revenus diminuent. """
 
 #-----------------------------------------------------------------------------------
 
@@ -1419,8 +1417,7 @@ commentaire_europe_revenus = """En observant les variations dans les revenus des
 commentaire_europe_conclusion = """En conclusion, dans la zone euro, le COVID semble avoir impacté le PIB et le revenu des habitants ainsi que leurs habitudes de consommations. 
 Dans le même temps, on observe une diminution du taux de chomage. 
 
-Afin de déterminer l'impact réel de l'épidémie sur l'économie de la zone euro, et déterminer si les relations observées sont uniquement dues au COVID, il serait intéressant de mener des études plus approfondies sur le comportement de ces indicateurs en dehors des périodes de crises. On pourra également essayer d'expliquer ces variations par d'autres facteurs (crises politiques, crises sanitaires autre que la COVID, crises économiques ... ).
-"""
+Afin de déterminer l'impact réel de l'épidémie sur l'économie de la zone euro, et déterminer si les relations observées sont uniquement dues au COVID, il serait intéressant de mener des études plus approfondies sur le comportement de ces indicateurs en dehors des périodes de crises. On pourra également essayer d'expliquer ces variations par d'autres facteurs (crises politiques, crises sanitaires autre que la COVID, crises économiques ... )."""
 
 #%%
 
